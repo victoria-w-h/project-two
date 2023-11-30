@@ -1,4 +1,101 @@
 :root {
 	--ff--rubik: "Rubik", sans-serif;
 	--ff--monts: "Montserrat", sans-serif;
+	--brown: #4a4a4a;
+	--lightGrey: #7f7f7f;
+	--grey: #fafafa;
+	--white: #fff;
+}
+
+/* reset styles */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-family: var(--ff--monts);
+	color: var(--brown);
+	font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--ff--rubik);
+	font-weight: 700;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+/* Utility classes */
+.color-lightGrey {
+	color: var(--lightGrey);
+}
+.gap10 {
+	gap: 10px;
+}
+.gap30 {
+	gap: 30px;
+}
+.text-align-center {
+	text-align: center;
+}
+.flex {
+	display: flex;
+}
+.flex-col {
+	flex-direction: column;
+}
+.margin-auto {
+	margin: auto;
+}
+ul li a {
+	text-decoration: none;
+	color: var(--brown);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+ul li {
+	background-color: var(--white);
+	padding: 10px;
+}
+.block {
+	display: block;
+}
+.w100 {
+	width: 100%;
+}
+/* Header + nav */
+header {
+	background-color: var(--grey);
+	padding: 10px;
+}
+h1 {
+	font-size: 24px;
+}
+/* intro section */
+.intro-wrapper {
+	padding: 30px 10px;
+	background-color: var(--grey);
+}
+.profile-img {
+	max-width: 200px;
+	height: auto;
+	margin: auto;
+}
+.intro-text {
+	font-size: 14px;
+	line-height: 1.6;
 }
