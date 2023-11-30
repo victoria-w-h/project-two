@@ -23,6 +23,7 @@ body {
 	font-family: var(--ff--monts);
 	color: var(--brown);
 	font-size: 16px;
+	text-align: center;
 }
 h1,
 h2,
@@ -48,9 +49,7 @@ ul {
 .gap30 {
 	gap: 30px;
 }
-.text-align-center {
-	text-align: center;
-}
+
 .flex {
 	display: flex;
 }
@@ -59,6 +58,9 @@ ul {
 }
 .margin-auto {
 	margin: auto;
+}
+.uppercase {
+	text-transform: uppercase;
 }
 ul li a {
 	text-decoration: none;
@@ -83,7 +85,7 @@ header {
 	padding: 10px;
 }
 h1 {
-	font-size: 24px;
+	font-size: 28px;
 }
 /* intro section */
 .intro-wrapper {
@@ -98,4 +100,16 @@ h1 {
 .intro-text {
 	font-size: 14px;
 	line-height: 1.6;
+}
+/* portfolio section */
+.portfolio-wrapper {
+	padding: 0 20px 30px;
+}
+h2 {
+	font-size: 20px;
+	padding: 30px 0;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 500;
 }
