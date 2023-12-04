@@ -14,7 +14,7 @@
 			rel="stylesheet" />
 	</head>
 	<body>
-		<header class="flex flex-col gap30 header">
+		<header class="flex flex-col gap30 header cont-xl margin-auto">
 			<h1 class="">Student Name</h1>
 			<nav>
 				<ul class="flex flex-col gap10 nav-ul">
@@ -25,12 +25,15 @@
 						<a href="#portfolio">Portfolio</a>
 					</li>
 					<li>
+						<a href="#skills">Skills</a>
+					</li>
+					<li>
 						<a href="#contact">Contact</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
-		<section class="intro-wrapper flex flex-col gap30">
+		<section class="intro-wrapper flex flex-col gap30 cont-l margin-auto">
 			<img
 				src="/images/responsive-layout-profile.png"
 				alt="Profile image"
@@ -132,9 +135,27 @@
 				</div>
 			</div>
 		</main>
+		<!-- extra section for skills -->
+		<section id="skills" class="skills-wrapper bg-grey">
+			<h4 class="uppercase">Skills</h4>
+			<div class="skills-wrapper-inner grid gap30">
+				<div class="skill-box margin-auto w100">
+					<div class="skill-inner">HTML</div>
+				</div>
+				<div class="skill-box margin-auto w100">
+					<div class="skill-inner">CSS</div>
+				</div>
+				<div class="skill-box margin-auto w100">
+					<div class="skill-inner">JS</div>
+				</div>
+				<div class="skill-box margin-auto w100">
+					<div class="skill-inner">PHP</div>
+				</div>
+			</div>
+		</section>
 		<footer class="footer-wrapper">
 			<div id="contact" class="contact-wrapper">
-				<h4 class="uppercase">Contact</h4>
+				<h5 class="uppercase">Contact</h5>
 				<p>
 					If you're interested in chatting or want more information
 					about what i've been working on, i'd love to hear from you!
@@ -152,9 +173,25 @@
 					</span>
 				</div>
 			</div>
-			<div class="footer-info flex jc-between">
+			<div class="footer-info flex jc-between cont-xl margin-auto">
 				<p>Student name</p>
-				<a href="#" class="uppercase">back to top</a>
+				<a href="#" class="uppercase to-top">back to top</a>
+				<nav class="hide nav-footer">
+					<ul class="flex gap30 nav-ul-footer">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#portfolio">Portfolio</a>
+						</li>
+						<li>
+							<a href="#skills">Skills</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</footer>
 	</body>
